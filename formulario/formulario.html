@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<head>
+
+ <title> FORMULARIO </title>
+
+</head>
+
+<body>
+
+   <h1> ¿Qué tipo de anime ves? </h1>
+
+   <form>
+
+    <fieldset>
+
+        <legend> TUS DATOS </legend>
+      
+        <label>Nombre: <input type = "text" name ="nombre" size="40"> <br></label>
+        <br>
+         <label>Fecha de nacimiento: <input type ="number" name="nacmimiento" min="1950"> <br></label>
+        <br>
+         <label>Email: <input type="text" name="email" size="70"> <br> </label>
+        <br>
+         <label>Teléfono: <input type="number" name="telefono" size="30"> <br></label>
+        <br>
+       
+ 
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      
+        <legend>ANIME</legend>
+
+      <label>Nombre: <input type = "text" name ="nombre" size="40">  <br> </label>
+        <br>
+        
+       
+        <label>Categoria: </label> <select> 
+            
+            <option value="nada"> ... </option>
+            <option value="Romance"> Romance </option>
+            <option value="Acción"> Acción </option>
+            <option value="Musica"> Música </option>
+            <option value="Meccha"> Meccha(robots) </option>
+            <option value="Drama"> Drama </option>
+            <option value="Magia"> Magia </option>
+            <option value="Isekai"> Isekai(entrar en mundo nuevo) </option>
+            <option value="Juegos"> Juegos </option>
+            <option value="Aventura"> Aventura </option>
+            <option value="Sobrenatural"> Sobrenatural </option>
+            <option value="Terror"> Terror </option>
+            <option value="Deportes"> Deportes </option>
+            <option value="Suspenso"> Suspenso </option>
+            <option value="Parodia"> Parodia </option>
+            <br>
+
+        </select>
+        <br>
+        <br>
+        <label>Número de capitulos: <input type="number" name="capitulos" max="2000"> <br></label>
+        <br>
+        <label>Número de temporadas: <input type="number" name="temporadas" max="100"> <br></label>
+        <br>
+        <p>¿Te ha gustado?:
+            <input type="radio" name="si" value="s">Sí
+            <input type="radio" name="no" value="n">No
+        </p>
+
+    </fieldset>
+ <br>
+
+    <fieldset>
+
+     <legend>Por curiosidad(opcional)</legend>
+
+     <label>¿Por qué empezaste a ver anime?: <textarea></textarea></label><br>
+     <br>
+     <label>¿Cuándo empezaste anime?: <input type="number" name="fecha" ></label>
+
+    </fieldset>
+<br>
+    
+      
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+
+    
+
+
+   </form>
+
+
+
+</body>
